@@ -1,0 +1,8 @@
+.course-card{
+    border: 1px solid var(--primary-color);
+}
+
+.course-card:hover{
+    background-color: var(--dark-color);
+    
+}

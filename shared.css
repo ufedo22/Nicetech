@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+:root{
+--light-color:hsl(237, 68%, 70%);
+--green-color:hsl(148, 65%, 61%);
+--purple-color:hsl(239, 53%, 38%);
+--primary-color:hsl(237, 37%, 20%);
+--secondary-color:hsl(16, 95%, 55%);
+--dark-color:hsl(222, 38%, 9%);
+--grey-color:hsl(0, 0%, 50%);
+--white-color:hsl(0, 0%, 100%);
+--yellow-color:hsl(60, 89%, 35%);
+--transition:all 0.3s ease;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'roboto',sans-serif;
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    background-color: var(--dark-color);
+    color:white;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*flex*/
+
+header{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.main-nav{
+    width: 100%;
+    height: 50px;
+   
+}
+.main-nav ul a:hover{
+    color: var(--light-color);
+    font-size: 0.8rem;
+}
+
+.hero-btn button{
+    border:none;
+    outline: none;
+}
+ button:hover{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 80%);
+    color: var(--white-color);
+}

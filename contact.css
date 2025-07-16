@@ -1,0 +1,44 @@
+.forms{
+    margin:7rem 0 ;
+}
+
+.form input,
+textarea{
+    background-color: var(--dark-color);
+    border:none;
+    outline: none;
+    padding:8px 12px;
+    resize: none;
+}
+
+input[type="email"]{
+    width:100%;
+}
+input::placeholder,
+textarea::placeholder{
+    color:white;
+    opacity: 1;
+}
+
+.contact-forms{
+    position: relative;
+    margin-bottom: 12rem;
+}
+.highlighted-form__details{
+    background-color: hsl(227, 100%, 76%);
+    position: absolute;
+    width:350px;
+    height: 500px;
+    top:12%;
+    right: 60%;
+    z-index: 1;
+}
+.form-image img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+footer{
+    margin-top: 5rem;
+}
+

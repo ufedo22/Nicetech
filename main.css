@@ -1,0 +1,97 @@
+.categories{
+    position: relative;
+}
+.categories::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 78%;
+}
+
+.card{
+    background-color: hsl(236, 37%, 24%);
+}
+span i{
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.card-1 span i,
+.card-6 span i{
+    background-color: var(--purple-color);
+}
+.card-2 span i{
+    background-color: var(--secondary-color);
+}
+.card-3 span i,
+.card-5 span i{
+    background-color: var(--green-color);
+}
+.card-4 span i{
+    background-color: var(--yellow-color);
+}
+.course-card{
+    border: 1px solid hsl(238, 29%, 24%);
+}
+.course-card:hover{
+    background-color: hsl(222, 38%, 9%);
+}
+.review-details{
+    overflow: hidden;
+}
+.reviews:hover .review-header{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.swiper-container__1{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.Swiper{
+    width:100%;  
+}
+.swiper-pagination{
+    position: relative;
+    color: white;
+    background-color: hsl(222, 37%, 11%)
+}
+
+.img-container{
+    width:14%;
+    height: auto;
+    border-radius: 50%;
+    border: 10px solid hsl(238, 34%, 14%);
+}
+.img-container img{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial-text{
+    position: relative;
+}
+.testimonial-text::before{
+    content:'';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    width:0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid var(--purple-color);
+    opacity: 0.8;
+}
+
+
+
+
+
